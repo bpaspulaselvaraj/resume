@@ -1,0 +1,123 @@
+body{
+  font-family: 'Marmelad', sans-serif;
+  margin:0;
+}
+
+/* header section */
+#header{
+  background-color: #d3f4ff;
+}
+
+.navbar-brand{
+  font-family: 'Permanent Marker', cursive;
+}
+
+/* About me section */
+.row{
+  margin:0;
+}
+.textsection{
+  padding:7%;
+}
+#about-me{
+  background-color: #d3f4ff;
+}
+.call-me{
+  transform: rotate(25deg);
+  position: absolute;
+}
+.fitintomobile{
+  font-family: 'Merienda', cursive;
+  font-size: 2rem;
+}
+
+.navbar-brand{
+  padding-left:10%;
+}
+
+/* Technical Expertise */
+#technical-expertise{
+  text-align:center;
+  background-color: #fff;
+  padding:10%;
+  position: relative;
+}
+.expertise{
+  padding:3%;
+}
+
+/* work experience */
+
+#work-experience{
+  background-color: #d3f4ff;
+}
+#experience{
+  padding:5%;
+}
+.carousel-item{
+  text-align: center;
+}
+/* .carousel-control-next, .carousel-control-prev{
+  background-color: #e3620e;
+} */
+
+/* client details */
+#client-details{
+  background-color: #fff;
+  padding:10%;
+}
+.card{
+  height: 100%;
+    text-align: center;
+}
+.card-title{
+  font-weight: bold;
+}
+.text-masterbrand{
+  padding:17%;
+}
+.text-xfinity{
+  padding:10%;
+}
+
+/* Footer Section */
+#footer{
+  text-align: center;
+  background-color: #d3f4ff;
+  padding:5%;
+}
+
+.phonenumber{
+  font-size: 2rem;
+}
+
+.emailid{
+  font-size:2rem;
+}
+
+@media (max-width:990px)
+{
+  .call-me{
+    /* margin-top:25%; */
+    transform: rotate(0);
+    position: static;
+    width:80%;
+    margin-top:0;
+  }
+  .fitintomobile,.aboutme{
+    font-size:1.5rem;
+  }
+  .phonenumber,.emailid{
+    font-size:1rem;
+  }
+}
+@media (min-width:991px) and (max-width:1240px)
+{
+  .call-me{
+    position: static;
+    transform: rotate(0);
+  }
+  .fitintomobile,.aboutme{
+    font-weight:500;
+  }
+}
